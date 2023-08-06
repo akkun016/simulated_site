@@ -17,6 +17,7 @@ time, mark, audio, video {
   font-size:100%;
   vertical-align:baseline;
   background:transparent;
+  font-family: 'Roboto', sans-serif;
 }
 
 *, *::after, *::before {
@@ -56,6 +57,18 @@ a {
   font-size:100%;
   vertical-align:baseline;
   background:transparent;
+}
+
+button{
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 
 /* change colours to suit your needs */

@@ -4,9 +4,444 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>simulated_site</title>
-  <link rel="stylesheet" href="./dest/css/style.css">
-</head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"> 
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"></head>
 <body>
-  
+  <div class="hamburger-btn">
+    <div>
+      <span></span>
+      <span></span>
+    </div>
+    <div>
+      <span></span>
+      <span></span>
+    </div>
+    <div>
+      <div>
+        <span></span>
+        <span></span>
+      </div>
+      <div>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <div class="menu-page">
+    <div class="menu-page__close">
+      <span class="close-mark-cover"></span>
+      <span class="close-mark">
+        <span></span>
+        <span></span>
+      </span>
+    </div>
+    <div class="menu-page__inner">
+      <div class="menu-page-left">
+        <ul class="menu-page-left-lists">
+          <li class="menu-page-left-lists__list"><a class="line-text line-text--reverse numbers" href="#">ブライトの仕事<span><span>6</span><span>3</span></span></a></li>
+          <li class="menu-page-left-lists__list"><a class="line-text line-text--reverse numbers" href="#">プロジェクトの紹介<span><span>0</span><span>8</span></span></a></li>
+          <li class="menu-page-left-lists__list"><a class="line-text line-text--reverse" href="#">考え方・進め方</a></li>
+          <li class="menu-page-left-lists__list"><a class="line-text line-text--reverse" href="#">私たちについて</a></li>
+        </ul>
+      </div>
+      <div class="menu-page-right">
+        <div class="menu-page-right-top">
+          <div class="menu-page-right-top__links">
+            <a class="line-text line-text--reverse" href="#">INSTAGRAM</a>
+            <a class="line-text line-text--reverse" href="#">FACEBOOK</a>
+          </div>
+        </div>
+        <div class="menu-page-right-bottom">
+          <div class="menu-page-right-bottom__info-top">
+            <a class="line-text" href="#">採用について</a>
+            <a class="line-text numbers" href="#">お知らせ<span><span>2</span><span>2</span></span></a>
+            <a class="line-text" href="#">お問い合わせ</a>
+          </div>
+          <div class="menu-page-right-bottom__info-bottom">
+            <a class="line-text" href="#">はじめまして、ブライトです。私たちの自己紹介。</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="bottom-link">
+    <a href="#"><img src="https://placehold.jp/1000x50.png" alt="bottomLink"></a>
+  </div>
+  <div class="back-cover">
+  </div>
+  <header id="header" class="down-move">
+    <div class="logo hidden">©︎BRIGHT inc.</div>
+    <div class="number-count visible">
+      <span class="prev-btn line-text line-text--reverse">
+        <span>0</span>
+        <span class="current-count"></span>
+      </span> / 
+      <span class="next-btn line-text line-text--reverse">
+        <span>0</span>
+        <span class="total-count"></span>
+      </span>
+    </div>
+    <nav class="nav-items">
+      <a href="#" class="nav-items__item line-text line-text--reverse numbers">
+        WORK
+        <span class="nav-items__item--label">
+          <span>6</span><span>3</span>
+        </span>
+      </a>
+      <a href="#" class="nav-items__item line-text line-text--reverse numbers">
+        PROJECT
+        <span class="nav-items__item--label">
+          <span>0</span><span>8</span>
+        </span>
+      </a>
+      <a href="#" class="nav-items__item line-text line-text--reverse">SERVICE</a>
+      <a href="#" class="nav-items__item line-text line-text--reverse">CONTACT</a>
+    </nav>
+  </header>
+  <main id="main">
+    <div class="keyvisual">
+      <div class="slider">
+        <img class="animated-image" src="./img/photo-2.avif" alt="キービジュアル画像">
+        <img src="./img/photo-5.jpg" alt="キービジュアル画像">
+        <img src="./img/photo-3.jpg" alt="キービジュアル画像">
+      </div>
+      <a href="#" id="self-introduction" class="news-box">
+        <div class="news-box__inner">
+          <span class="news-box__text">
+            <span class="news-box__text--underline">初めまして、ブライトです。</span>私たちの自己紹介。
+          </span>
+          <span class="news-box__cross-mark">
+            <span class="mark-icon"></span>
+            <span class="mark-cover"></span>
+          </span>
+        </div>
+      </a>
+      <a href="#" id="adoption" class="news-box">
+        <div class="news-box__inner">
+          <span class="news-box__text">
+            <span class="news-box__text--underline">アートディレクター/デザイナー</span>の採用を開始しました。
+          </span>
+          <span class="news-box__cross-mark">
+            <span class="mark-icon"></span>
+            <span class="mark-cover"></span>
+          </span>
+        </div>
+      </a>
+      <span class="keyvisual__vertical-line"></span>
+    </div>
+    <section class="theme">
+      <h2 class="theme__heading scroll-items scroll-items_1">ブランディングデザインで、<br>世の中をもっと明るく。</h2>
+      <p class="theme__lead scroll-items scroll-items_1">はじめまして、ブランディングデザインブライトです。私たちは、企業・商品・サービスをトータルでデザインする「ブランディングデザイン」でお客様の課題を一緒に解決し“より輝く”ことを目標に、日々考えデザインしています。</p>
+      <div class="theme__items scroll-items scroll-items_1">
+        <a href="#" class="section-article-list section-article-list--half vertical-line">考え方・進め方</a>
+        <a href="#" class="section-article-list section-article-list--half vertical-line vertical-line--one-line">私たちについて</a>
+      </div>
+    </section>
+    <section class="works">
+      <h2 class="section-title scroll-items scroll-items_1">ブライトの仕事<span>6</span><span>3</span></h2>
+      <div class="articles">
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">一ノ蔵<br>吟のいろは パッケージ</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">プロダクト</span>
+            <span class="tag-link line-text" href="#">パッケージ</span>
+            <span class="tag-link line-text" href="#">印刷</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">8BOOKs SENDAI<br>紙媒体</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">施設</span>
+            <span class="tag-link line-text" href="#">グラフィック</span>
+            <span class="tag-link line-text" href="#">コピー</span>
+            <span class="tag-link line-text" href="#">イラスト</span>
+            <span class="tag-link line-text" href="#">撮影</span>
+            <span class="tag-link line-text" href="#">スタイリング</span>
+            <span class="tag-link line-text" href="#">印刷</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">8BOOKs SENDAI<br>サイン</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">施設</span>
+            <span class="tag-link line-text" href="#">サイン</span>
+            <span class="tag-link line-text" href="#">施工</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">びんのおのや<br>パッケージ</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">プロダクト</span>
+            <span class="tag-link line-text" href="#">パッケージ</span>
+            <span class="tag-link line-text" href="#">コピー</span>
+            <span class="tag-link line-text" href="#">イラスト</span>
+            <span class="tag-link line-text" href="#">印刷</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">びんのおのや<br>紙媒体</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">プロダクト</span>
+            <span class="tag-link line-text" href="#">グラフィック</span>
+            <span class="tag-link line-text" href="#">コピー</span>
+            <span class="tag-link line-text" href="#">イラスト</span>
+            <span class="tag-link line-text" href="#">撮影</span>
+            <span class="tag-link line-text" href="#">スタイリング</span>
+            <span class="tag-link line-text" href="#">印刷</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">NURUCON<br>グレー 2L パッケージ</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">プロダクト</span>
+            <span class="tag-link line-text" href="#">パッケージ</span>
+            <span class="tag-link line-text" href="#">印刷</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">YEASTWEYL<br>フォトディレクション</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">店舗</span>
+            <span class="tag-link line-text" href="#">撮影</span>
+            <span class="tag-link line-text" href="#">スタイリング</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">BAKERY GOLDEN RATIO ロゴマーク</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">店舗</span>
+            <span class="tag-link line-text" href="#">ロゴ</span>
+          </p>
+        </a>
+      </div>
+      <a href="#" class="section-article-list vertical-line">仕事一覧</a>
+    </section>
+    <section class="projects">
+      <h2 class="section-title scroll-items scroll-items_1">プロジェクトの紹介<span>0</span><span>8</span></h2>
+      <div class="projects-items">
+        <a href="#" class="projects-items__item zoom-image scroll-items scroll-items_2">
+          <div class="projects-item-left"><img src="./img/photo-1.avif" alt="プロジェクト記事画像" class="projects-item-left__img"></div>
+          <div class="projects-item-right">
+            <h3 class="projects-item-right__title">米作りから酒造りまで。<br>言葉通り「イチから」造る日本酒ブランド。</h3>
+            <p class="projects-item-right__brand">一ノ蔵</p>
+            <div class="projects-item-right__tags">
+              <span href="#" class="line-text line-text--reverse">プロダクト</span>
+              <span href="#" class="line-text">コンセプト</span>
+              <span href="#" class="line-text">ネーミング</span>
+              <span href="#" class="line-text">スローガン</span>
+              <span href="#" class="line-text">ロゴ</span>
+              <span href="#" class="line-text">パッケージ</span>
+            </div>
+            <p class="projects-item-right__text">宮城県を代表する酒造会社である、株式会社一ノ蔵。数年かけて進められてきた新しいプロジェクト「イチからはじめるイチノクラ」シリーズのラベルデザインについて、2022年5月にブライトへご相談いただいた。同年12月に1本目を、2023年2月に2本目と3本目をリリースした。</p>
+          </div>
+        </a>
+        <a href="#" class="projects-items__item zoom-image scroll-items scroll-items_2">
+          <div class="projects-item-left"><img src="./img/photo-1.avif" alt="プロジェクト記事画像" class="projects-item-left__img"></div>
+          <div class="projects-item-right">
+            <h3 class="projects-item-right__title">ペンションの朝食で作っていた、<br>ジャムから始まる物語。</h3>
+            <p class="projects-item-right__brand">びんのおのや</p>
+            <div class="projects-item-right__tags">
+              <span href="#" class="line-text line-text--reverse">プロダクト</span>
+              <span href="#" class="line-text">資金計画</span>
+              <span href="#" class="line-text">コンセプト</span>
+              <span href="#" class="line-text">ネーミング</span>
+              <span href="#" class="line-text">スローガン</span>
+              <span href="#" class="line-text">ステートメント</span>
+              <span href="#" class="line-text">コピー</span>
+              <span href="#" class="line-text">ロゴ</span>
+              <span href="#" class="line-text">パッケージ</span>
+              <span href="#" class="line-text">グラフィック</span>
+              <span href="#" class="line-text">撮影</span>
+              <span href="#" class="line-text">スタイリング</span>
+            </div>
+            <p class="projects-item-right__text">2016年からはちみつやジャム、バターの製造販売を行っている「びんのおのや」のリブランディング。はじめに依頼いただいたのは「バラとはちみつ」という製品単体のパッケージデザイン。しかし「びんのおのや」というブランドを強めるのであれば、パッケージの見え方を統一する必要があると考え、ブランド全体のリブランディングを提案。提案するだけではなく実現のために資金計画から並走し、補助金申請のサポートからプロジェクトがスタートした。ブライトでは、資金計画、コンセプト、スローガン、ステートメント、ロゴマーク、グラフィック、パッケージデザイン、印刷、コピーライティング、撮影、スタイリング他、リブランディングに関わるすべてを担当した。</p>
+          </div>
+        </a>
+        <a href="#" class="projects-items__item zoom-image scroll-items scroll-items_2">
+          <div class="projects-item-left"><img src="./img/photo-1.avif" alt="プロジェクト記事画像" class="projects-item-left__img"></div>
+          <div class="projects-item-right">
+            <h3 class="projects-item-right__title">本との出会いをテーマに、<br>八本松に開館した図書施設。</h3>
+            <p class="projects-item-right__brand">8BOOKs SENDAI（エイトブックスセンダイ）</p>
+            <div class="projects-item-right__tags">
+              <span href="#" class="line-text line-text--reverse">施設</span>
+              <span href="#" class="line-text">コンセプト</span>
+              <span href="#" class="line-text">ネーミング</span>
+              <span href="#" class="line-text">スローガン</span>
+              <span href="#" class="line-text">ステートメント</span>
+              <span href="#" class="line-text">コピー</span>
+              <span href="#" class="line-text">ロゴ</span>
+              <span href="#" class="line-text">グラフィック</span>
+              <span href="#" class="line-text">サイン</span>
+              <span href="#" class="line-text">施工</span>
+              <span href="#" class="line-text">ウェブ</span>
+              <span href="#" class="line-text">映像</span>
+              <span href="#" class="line-text">撮影</span>
+              <span href="#" class="line-text">スタイリング</span>
+            </div>
+            <p class="projects-item-right__text">宮城県民なら誰もが知っている七十七銀行。その役目を終えた支店跡地を、民間企業が運営する図書施設に生まれ変わらせるブランディングプロジェクト。2020年の夏頃にご相談いただき、2022年8月に開館した。施設の意匠設計は株式会社石森建築設計事務所、本のブックディレクションは日本出版販売株式会社が担当。ブライトでは、コンセプト・ネーミング・スローガン・ステートメント・ロゴマークとブランドの基礎設計部分から、紙媒体・WEBサイト・プロモーションムービー・施設サイン・什器制作とコミュニケーション部分のすべてを担当した。</p>
+          </div>
+        </a>
+        <a href="#" class="projects-items__item zoom-image scroll-items scroll-items_2">
+          <div class="projects-item-left"><img src="./img/photo-1.avif" alt="プロジェクト記事画像" class="projects-item-left__img"></div>
+          <div class="projects-item-right">
+            <h3 class="projects-item-right__title">製材所がつくる、<br>木と共に育つ家づくり。</h3>
+            <p class="projects-item-right__brand">いえのわ</p>
+            <div class="projects-item-right__tags">
+              <span href="#" class="line-text line-text--reverse">コーポレート</span>
+              <span href="#" class="line-text">資金計画</span>
+              <span href="#" class="line-text">コンセプト</span>
+              <span href="#" class="line-text">スローガン</span>
+              <span href="#" class="line-text">ステートメント</span>
+              <span href="#" class="line-text">コピー</span>
+              <span href="#" class="line-text">ロゴ</span>
+              <span href="#" class="line-text">グラフィック</span>
+              <span href="#" class="line-text">サイン</span>
+              <span href="#" class="line-text">ウェブ</span>
+              <span href="#" class="line-text">撮影</span>
+              <span href="#" class="line-text">スタイリング</span>
+              <span href="#" class="line-text">ソーシャル</span>
+            </div>
+            <p class="projects-item-right__text">昭和23年に松島にて創業した「高橋製材所」をルーツに持ち、木の家づくりを行うタカハシ木材style株式会社の住宅設計ブランド「いえのわ」。2021年4月にブランドの見直しの相談をいただき、リブランディングを担当。2022月10月にリリース。ブライトでは、コンセプト・スローガン・ステートメント・ロゴマークとブランドの基礎設計部分から、ビジュアル・紙媒体・WEBサイト・SNS、そこに伴う撮影やコピーライティングのコミュニケーション部分の全てを担当した。現在も運用や様々な経営課題に対し、二人三脚でサポートしている。</p>
+          </div>
+        </a>
+      </div>
+      <a href="#" class="section-article-list vertical-line">プロジェクト一覧</a>
+    </section>
+    <section class="info">
+      <h2 class="section-title scroll-items scroll-items_1">お知らせ<span>2</span><span>2</span></h2>
+      <div class="articles">
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">改めまして。ブランディングデザインブライトです。</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">2023.04.02</span>
+            <span class="tag-link line-text" href="#">ニュース</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">商標等の権利関係について社内研修を行いました。</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">2023.03.20</span>
+            <span class="tag-link line-text" href="#">ジャーナル</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">究極のロゴデザイン 掲載</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">2022.05.19</span>
+            <span class="tag-link line-text" href="#">メディア</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">信頼・誠実を大切にする 業種別ロゴのデザイン 掲載</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">2022.05.19</span>
+            <span class="tag-link line-text" href="#">メディア</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">ターゲットの心を掴む スタイルのあるブランディングデザイン 掲載</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">2022.05.19</span>
+            <span class="tag-link line-text" href="#">メディア</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">あたらしいロゴとツール展開 掲載</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">2022.05.19</span>
+            <span class="tag-link line-text" href="#">メディア</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">欲しくなるパッケージのデザインとブランディング 掲載</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">2022.05.19</span>
+            <span class="tag-link line-text" href="#">メディア</span>
+          </p>
+        </a>
+        <a href="#" class="articles__item zoom-image scroll-items scroll-items_2">
+          <div class="articles__image">
+            <img src="https://placehold.jp/300x300.png" alt="記事画像">
+          </div>
+          <p class="articles__title">グラフィックと空間のデザイン 掲載</p>
+          <p class="articles__tag">
+            <span class="tag-link line-text line-text--reverse" href="#">2022.05.19</span>
+            <span class="tag-link line-text" href="#">メディア</span>
+          </p>
+        </a>
+      </div>
+      <a href="#" class="section-article-list vertical-line">お知らせ一覧</a>
+    </section>
+  </main>
+  <footer id="footer">
+    </div>
+    <div class="footer-inner">
+      <div class="footer-inner__title scroll-items scroll-items_1">引いたり、足したり、掛けたり。</div>
+      <div class="footer-inner__text scroll-items scroll-items_1">ブランディングデザインブライトは、お客様の内部の「デザイン室」のような立ち位置で、課題解決のためのブランドづくりをサポートしています。引いたり、足したり、掛けたりしながら、お客様が“より輝く”ことを目標に、日々考えデザインしています。</div>
+      <div class="footer-inner__inquiry scroll-items scroll-items_1">
+        <a href="#" class="section-article-list section-article-list--inquiry vertical-line">お問い合わせ</a>
+      </div>
+      <ul class="footer-inner__nav scroll-items scroll-items_1">
+        <li><a href="#" class="line-text">考え方・進め方</a></li>
+        <li><a href="#" class="line-text">私たちについて</a></li>
+        <span></span>
+        <li><a href="#" class="line-text">はじめまして、ブライトです。私たちの自己紹介。</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./js/index.js"></script>
 </body>
 </html>
+

@@ -20,7 +20,7 @@ function cssSass() {
 
 // jsトランスパイル
 function Babel() {
-  return src('src/*.js')
+  return src('src/js/*.js')
   .pipe(babel({
     presets: ['@babel/preset-env']
   }))
@@ -38,7 +38,7 @@ function watchFile() {
 
   watch('src/*index.html', copyIndex);
   watch('src/sass/*.scss', cssSass);
-  watch('src/*.js', Babel);
+  watch('src/js/*.js', Babel);
   watch("dest/*.html").on('change', browserSync.reload);
 }
 
